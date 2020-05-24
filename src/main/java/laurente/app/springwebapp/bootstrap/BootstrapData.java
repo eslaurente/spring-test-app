@@ -1,13 +1,13 @@
-package guru.springframework.spring5webapp.bootstrap;
+package laurente.app.springwebapp.bootstrap;
 
-import guru.springframework.spring5webapp.domain.Author;
-import guru.springframework.spring5webapp.domain.Book;
-import guru.springframework.spring5webapp.domain.Publisher;
-import guru.springframework.spring5webapp.repositories.PublisherRepository;
+import laurente.app.springwebapp.domain.Author;
+import laurente.app.springwebapp.domain.Book;
+import laurente.app.springwebapp.domain.Publisher;
+import laurente.app.springwebapp.repositories.PublisherRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import guru.springframework.spring5webapp.repositories.AuthorRepository;
-import guru.springframework.spring5webapp.repositories.BookRepository;
+import laurente.app.springwebapp.repositories.AuthorRepository;
+import laurente.app.springwebapp.repositories.BookRepository;
 
 @Component
 public class BootstrapData implements CommandLineRunner {

@@ -1,6 +1,6 @@
-package guru.springframework.spring5webapp.controllers;
+package laurente.app.springwebapp.controllers;
 
-import guru.springframework.spring5webapp.repositories.AuthorRepository;
+import laurente.app.springwebapp.repositories.AuthorRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
